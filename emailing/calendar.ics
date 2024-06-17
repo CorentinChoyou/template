@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Paris
+X-LIC-LOCATION:Europe/Paris
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230911T142721Z
+UID:1694442435944-37376@ical.marudot.com
+DTSTART;TZID=Europe/Paris:20231018T090000
+DTEND;TZID=Europe/Paris:20231018T100000
+SUMMARY:ÉMISSION LIVE : Comment l'IA démultiplie le potentiel des données ?
+URL:https://www.itforbusinessleclub.fr/sinequa/
+DESCRIPTION:Pharmacie\, commerce de détail\, compatibilité\, télécom\, etc. La liste pourrait s’allonger à l’infini tant les domaines que l’IA générative promet de transformer sont nombreux. Intrinsèquement liée à la donnée\, l’IA générative va permettre aux entreprises d’optimiser la recherche de d’information et d’en améliorer l’exploitation. Selon une étude réalisée en 2021\, les salariés perdent jusqu’à 8 heures par semaine pour trouver une information. Avec l’IA générative\, place donc à l’efficacité.\n\nLors de cet évènement\, vous découvrirez grâce aux témoignages de témoins et d’experts comment l’introduction de l’IA générative décuple les capacités de la recherche d’information dans l’entreprise.\n\nQu’apporte l’IA générative au Search ?\nPourquoi l’IA générative intégrée au Search améliorer la productivité des salariés ?
+LOCATION:Paris
+END:VEVENT
+END:VCALENDAR

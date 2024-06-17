@@ -1,0 +1,39 @@
+$main-color: #739EF3;
+$main-bg-color: #f3f3f3;
+$light-bg-color: #bfbfbf;
+$colored-bg-color: #009DDB;
+$rgba-main-color: rgba($main-color, 0);
+$cta : #FFA800;
+$cta-hover : #a27417;
+
+$dark-main-color: #082486;
+$dark-main-bg-color: #211E31;
+$rgba-dark-main-color: rgba($dark-main-color, 0);
+
+$text-color: #000;
+$light-text-color: #fff;
+$colored-text-color: #2E5FD1;
+$link-color: #000;
+
+$hover-bg-color: #2E5FD1;
+$hover-main-color: #739EF3;
+$hover-text-color: #fff;
+
+
+@mixin w1200 {
+    @media (max-width: 1200px){
+      @content;
+    }
+}
+
+@mixin w900 {
+    @media (max-width: 900px){
+      @content;
+    }
+}
+
+@mixin w600 {
+    @media (max-width: 600px){
+      @content;
+    }
+}
